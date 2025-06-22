@@ -1,0 +1,297 @@
+* 
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+    background-image: url(imagenes/fondo.webp);
+    background-size: cover;
+}
+
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #171717;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+
+.logo {
+    margin-left: 30px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.logo h1 {
+    font-size: 3em;
+    font-family: Arial;
+}
+
+.logo p {
+    font-size: 2em;
+    font-family: Arial;
+}
+
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+.navbar a {
+    display: block;
+    padding: 23px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    background-color: #FF1200;
+    margin: 3px;
+    border-radius: 6px;
+    font-family: Algerian;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #654321;
+    color: yellow;
+}
+
+
+.header {
+    height: 60vh;
+    background: url(img/header.jpg) no-repeat center;
+    background-size: cover;
+    color: #000;
+    background-color: #fff;
+    text-align: center;
+    font-family: Arial;
+}
+
+.title {
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #248db7;
+}
+
+
+p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #d2d6e3;
+    padding: 0 100px;
+}
+
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #9c27b0;
+    color: #ffffff;
+    text-decoration: none;
+    background: #9c27b0;
+}
+
+.btn:hover {
+    background: none;
+}
+
+.btn-home {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+section {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    width: 45%;
+    margin: 80px auto 30px auto;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+
+.sau {
+    padding: 110px;
+    background: #be1b1bc8;
+}
+
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.box-container .box {
+    height: 11rem;
+    width: 17rem;
+    background: #101010;
+    text-align: center;
+    border-radius: 1rem;
+    margin: 2rem;
+    padding: 10px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.box-container .box i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #9c27b0;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.box-container .box h3 {
+    font-size: 20px;
+    color: #9c27b0;
+}
+
+.box-container .box p {
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+
+.about {
+    background: #171717;
+}
+
+
+.price {
+    background: url(img/costos.jpg) no-repeat center;
+    background-size: cover;
+    text-align: center;
+}
+
+
+.contact {
+    padding-top: 20px;
+    background: #171717;
+    padding-bottom: 0;
+}
+
+
+.container-form {
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    margin-top: 90px;
+    padding: 20px;
+}
+
+.container-form h2 {
+    margin-bottom: 15px;
+    font-size: 24px;
+    color: #fff;
+}
+
+.container-form p {
+    font-size: 17px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    color: #ccc;
+}
+
+.container-form a {
+    font-size: 17px;
+    display: inline-block;
+    text-decoration: none;
+    color: #f1f1f1;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.container-form .campo,
+.container-form textarea {
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 15px;
+    border: 1px solid #dbdbdb;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    outline: none;
+}
+
+.container-form textarea {
+    max-width: 530px;
+    min-width: 530px;
+    min-height: 140px;
+    max-height: 150px;
+}
+
+.container-form .btn-enviar {
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    background: orange;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+.container-form .btn-enviar:hover {
+    background: #F34f43;
+}
+
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .container-form {
+        grid-template-columns: 1fr;
+        padding: 10px;
+    }
+
+    .container-form textarea {
+        max-width: 100%;
+        min-width: 100%;
+    }
+
+    section {
+        width: 90%;
+    }
+
+    p {
+        padding: 0 20px;
+    }
+}
